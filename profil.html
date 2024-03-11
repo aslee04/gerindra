@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="./css/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Profil</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="logo">
+				<a href="/">
+					<img src="./images/logo.png" alt="logo">
+				</a>
+			</div>
+			<a href="login.html" class="section__btn">
+				Log Out
+			</a>
+		</header>
+		
+		<section class="section__primary">
+			<div class="col-3 section__navbar">
+				<div class="section__private">
+					<a href="#!" class="profil__img"><img src="./images/profile-img.png" alt="error"></a>
+					<h3 class="private__name">Rayhan Dhany</h3>
+				</div>
+				<ul class="section__nav-list">
+					<li class="section__nav-item">
+						<a href="profil.html" class="active">Profil</a>
+					</li>
+					<li class="section__nav-item">
+						<a href="dokumen.html">Dokumen</a>
+					</li>
+					<li class="section__nav-item">
+						<a href="status.html">Status Pendaftaran</a>
+					</li>
+					<li class="section__nav-item">
+						<a href="pengajuan.html">Pengajuan Pendaftaran</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-9 profil__content">
+				<h2 class="title">
+					Profil
+				</h2>
+				
+				<div class="profil__section-items">
+					<div class="cart">
+						<img src="./images/profile-img.png" alt="error">
+						<div class="cart-body">
+							<p class="cart-text">Unggah Foto</p>
+						</div>
+					</div>
+					
+					<div class="form__section">
+						<div class="input__item mb-3">
+							<input type="text" class="form-control" placeholder="Nama" required>
+						</div>
+						<div class="input__item mb-3">
+							<input type="text" class="form-control" placeholder="Tanggal Lahir" required>
+						</div>
+						<div class="input__item mb-3">
+							<input type="text" class="form-control" placeholder="Alamat" required>
+						</div>
+						<div class="input__item mb-3">
+							<input type="text" class="form-control" placeholder="No.Telp" required>
+						</div>
+						<div class="input__item mb-3">
+							<input type="text" class="form-control" placeholder="Latar Belakang Pekerjaan" required>
+						</div>
+						<div class="input__item mb-3">
+							<input type="text" class="form-control" placeholder="Organisasi yang diikuti" required>
+						</div>
+						<div class="input__item mb-3">
+							<input type="text" class="form-control" placeholder="Jaringan Toga/Tomas yang dikenal" required>
+						</div>
+						<button type="button" class="btn btn-danger">Simpan</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<footer class="footer">
+			<div class="container">
+				<div class="row footer__content">
+					<div class="col-4 footer__item">
+						<p>
+							<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+								<rect y="0.5" width="20" height="20" fill="url(#pattern0)"/>
+								<defs>
+									<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+										<use xlink:href="#image0_11_57" transform="scale(0.01)"/>
+									</pattern>
+									<image id="image0_11_57" width="100" height="100" xlink:href="data:image/png;base64,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"/>
+								</defs>
+							</svg>
+							24 Shipley St.Arvada, CO 80003
+						</p>
+						<p>
+							<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+								<rect y="0.5" width="20" height="20" fill="url(#pattern0)"/>
+								<defs>
+									<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+										<use xlink:href="#image0_11_59" transform="scale(0.01)"/>
+									</pattern>
+									<image id="image0_11_59" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP+gvaeTAAAFOElEQVR4nO3dXYgWVRzH8d9f86XQlYrMDKMXNyo19aYwM7uIQEgIuunSq1ooeoMgCjKqm7oR6ia9EOqmm4oKxIgo3DLDCyN7UVF70V22UiSNwl11v12cfWjXLXdmnjPPmXnm/4G92znzP/PbmeeZM3POSs4555xzzjnnnHPO1YPFagi4TNJqSYskzb3Ar/4taUjSTjMbirV/NwZYAnwAnCGfUeBTYHXqPnQNoK9AEOc7B2xM3ZfaAx5pM4jzvZC6T7UFLAdGIgdyDrgzdd9qCXg/chgtO1L3LbXc37KAeZKOS7oofjmSpMVmdriktitvWoFtVqm8MCTpjhLbrrwigVwavYqJbiq5/UorEgjRq5jompLbr7QigRyLXsVEi0puv9KqGIifITn9Fr2Kia4GitTVFYp0/HeFAcKyzJS0oMT2Ky13IGaGpJ9KqGW8xn6OFL00lH3j1tjPkaKBfB+1isn8DMnp26hVTOaB5LQ3ahWTXVVy+5VVNJD9kk7FLOQ8/rU3DzM7J2l35FrGKzPsSmvnL3FntCom+6rEtiutnUD6o1Ux0WlJ20pqu/LaPUP+ilXIOFv99aCCgG2RH+HuB3pS9yuldr/NxLy0DEq6z8wa+4HeNmABcDbCmTEE3Jy6P10B6Pcw4olxA/Z2G9sOSrrLzPZFqMNJEjAXOOVnRoUAWzyMCgFWeBgVA+zOEMYA0Ju61iqLOaq6OcPvDEs6EnGf7v8Al4xdjqbyZOpaGwN4IkMgJ4DLU9faCMBs4EiGUDalrrUxCNPcpjIMLEldayMAM4DDGULZA8xIXW8jABsyBALwbOpaGwGYBnyR8dK1LHW9jQAsJdvE0D3A7NT1NgLwcsZL11upa20EYBawL2MofanrbQRgLWEZjamM4PPUOwN4LeNZMghcm7rerke4N9mZMZRDQGMn7HQMsAg4ljGUvUDZ068dsI6wpkkWO4CLU9fc9YCXMgbSCmVe6po7KdqKclkB0yW9I+n+jJt8LWmdmZU2+xdYKGm9pNslzZE0KulXSb9IOippQOHB2tDYHMvSdDwQKQzTS9ou6e6MmxyUdK+Z/Ry5jh5Jr0raIGlWhk1GFF5dOqp/wzog6UszOxSzto4DegjDJlkNAqsi7n8x8EOO/U+lH1gTq74kgCuBgzk6PUyEO3qgl/DCRWyjwIsxjk0ywHWEv/48tlJwQJLywhiv3ssVEkLJc6ZAuNwtzbmfToQB4at9vdf9Ily+8nymAJwGngOmXFCNzoXR8kknjlupgDnAxwU6/w2w8gLtdjoMCJ8n9Z/eTXhz5b0CB2AY2ERYYXt8eynCaHkg1XGMCphOuKPPOswy3gngKWAmacMAeDT1sYyKMPZ1vODBOET+b2+xPZ23z5VeMcHMtktaIWlXgc1vkLQwbkXlq3QgkmRmAwpDLK+r/AU4k6t8IJJkZiNm9piktZK6evpbLQJpMbPPJS2X9IzC1IauU6tAJMnMzpjZK5KWSfosdT2x1S6QFjM7KOkehaHzHxOXE01tA5EkMxs1szcVlid/WOH5RJX8mXeDWgfSMnYZ2yKpV9LjCk/7qmAg7wZJnhiWjfByxIOS+iTdlqiMM5Lmm9kfifZfTcBK4A2KLW7QjndT973SCCtOPEQYTR4uOYwRoNH/diMXwozh9cBmss0czstfHC+KMLK8Bnge+Ag42UYQbT/z78oP9XYQ/jPDjZJuHfu5RWGg8nqFd7b+y1lJH0raaGbftbN/DyQH4ApJ88d+FigEcVLSLjPLfc/hnHPOOeecc84551yd/QO8TFddWwCZBwAAAABJRU5ErkJggg=="/>
+								</defs>
+							</svg>
+							09378493810
+						</p>
+					</div>
+					<div class="col-4 footer__item">
+						<div class="socials">
+							<ul class="social__list">
+								<li class="social__item">
+									<a href="#!" class="social__link"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+								</li>
+								<li class="social__item">
+									<a href="#!" class="social__link"><i class="fa-brands fa-telegram fa-2xl"></i></a>
+								</li>
+								<li class="social__item">
+									<a href="#!" class="social__link"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+								</li>
+								<li class="social__item">
+									<a href="#!" class="social__link"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+								</li>
+							</ul>
+						</div>
+						<p class="social__text">@Copyright 2022 <b>Gerindra Jateng</b></p>
+					</div>
+					<div class="col-4 footer__item">
+						<div class="map">
+							<div style="position:relative;overflow:hidden;"><a href="https://yandex.uz/maps/10335/tashkent/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Ташкент</a><a href="https://yandex.uz/maps/10335/tashkent/?ll=69.327424%2C41.326657&utm_medium=mapframe&utm_source=maps&z=18" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты — транспорт, навигация, поиск мест</a><iframe src="https://yandex.uz/map-widget/v1/?ll=69.327424%2C41.326657&z=18" width="377" height="207" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+
+<script src="./css/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

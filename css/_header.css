@@ -1,0 +1,18 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 18px 100px;
+	background-color: var(--header-bg);
+}
+
+.logo a img {
+	width: 52px;
+	height: 63px;
+}
+
+.header .section__btn {
+	border: none;
+	outline: none;
+	margin-top: 0;
+}

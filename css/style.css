@@ -1,0 +1,143 @@
+@import './_login.css';
+@import './_fonts.css';
+@import './_header.css';
+@import './_footer.css';
+@import './_profil.css';
+@import './_dokumen.css';
+@import './_status.css';
+@import './_pengajuan.css';
+
+:root {
+	--body-bg-color: #f4f4f4;
+	--text-primary:     #000;
+	--header-bg:        #fff;
+	--footer-bg:     #212121;
+	--form-bg:          #fff;
+	--cards-bg:         #fff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	background-color: var(--body-bg-color);
+}
+
+/* .container {
+	max-width: 1240px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 16px;
+} */
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.section__btn {
+	padding: 9px 40px;
+	margin-top: 40px;
+	border-radius: 10px;
+	background: #db1d1d;
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 1.2px;
+	text-decoration: none;
+	transition: ease-in-out .3s;
+}
+
+.section__btn:hover {
+	box-shadow: 0px 4px 4px 0px rgba(253, 0, 0, .5);
+}
+
+/* Home section */
+
+.home {
+	margin-top: 73px;
+	padding-bottom: 95px;
+}
+
+.private {
+	text-align: center;
+	margin-bottom: 33px;
+}
+
+.private a img {
+	width: 96px;
+	height: 96px;
+	border-radius: 96px;
+}
+
+.private__name {
+	color: var(--text-primary);
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.36px;
+	margin-top: 20px;
+}
+
+.cards {
+	width: 100%;
+}
+
+.card__list {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.card__list:last-child {
+	margin: 0;
+}
+
+.card__item {
+	display: flex;
+	width: 367px;
+	height: 126px;
+	padding: 52px 39px;
+	margin-right: 20px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	background-color: var(--cards-bg);
+	text-decoration: none;
+	transition: ease .3s; 
+}
+
+.card__item:hover {
+	box-shadow: 0px 0.378px 2.748px 0px rgba(0, 0, 0, 0.02), 0px 0.956px 6.95px 0px rgba(0, 0, 0, 0.03), 0px 1.949px 14.177px 0px rgba(0, 0, 0, 0.04), 0px 4.015px 29.201px 0px rgba(0, 0, 0, 0.05), 0px 11px 80px 0px rgba(0, 0, 0, 0.07);
+}
+
+.card__item:last-child {
+	margin: 0;
+}
+
+.card__title {
+	color: var(--text-primary);
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.48px;
+}
+
+.section__badge {
+	padding: 6px;
+	border-radius: 10px;
+	background-color: #eb3c3c;
+}
+
+.section__badge.green__bg {
+	background-color: #54c35f !important;
+}

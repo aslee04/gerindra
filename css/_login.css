@@ -1,0 +1,78 @@
+@import './_fonts.css';
+
+.section__form {
+	display: flex;
+	padding: 100px;
+	max-width: 623px;
+	margin: 53px auto 0 auto;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	background: var(--form-bg);
+	box-shadow: 0px 3.435px 2.748px 0px rgba(188, 188, 188, 0.02), 0px 8.687px 6.95px 0px rgba(188, 188, 188, 0.03), 0px 17.721px 14.177px 0px rgba(188, 188, 188, 0.04), 0px 36.502px 29.201px 0px rgba(188, 188, 188, 0.05), 0px 100px 80px 0px rgba(188, 188, 188, 0.07);
+}
+
+.section__form h1 {
+	color: var(--text-primary);
+	text-align: center;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 1.8px;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.logo img {
+	width: 66px;
+	height: 81px;
+}
+
+.input-box {
+	width: 100%;
+	height: 64px;
+	margin: 25px 0;
+}
+
+.input-box input {
+	width: 100%;
+	padding: 21px 51px;
+	outline: none;
+	border-radius: 81px;
+	border: 1px solid rgba(0, 0, 0, 0.50);
+	background: #f6f6f6;
+	transition: ease-in-out .2s;
+}
+
+.input-box input:hover {
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .2);
+}
+
+.input-box input::placeholder {
+	color: rgba(0, 0, 0, .7);
+	font-size: 24px;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 1.2px;
+}
+
+.section__form p {
+	font-size: 18px;
+	text-align: center;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.9px;
+	margin-top: 40px;
+}
+
+.section__form .section__link {
+	display: block;
+	margin: 0 auto;
+	color: #0029ff;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0.9px;
+	text-decoration-line: underline;
+}

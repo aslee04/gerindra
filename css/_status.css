@@ -1,0 +1,25 @@
+.table {
+    width: 873px;
+}
+
+.table thead tr th {
+    background-color: transparent;
+}
+
+.table thead tr th, 
+.table tbody tr th {
+    border: 1px solid #b9b9b9;
+}
+
+.table tbody tr th {
+    color: var(--text-primary);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.badge {
+    padding: 6px;
+    background-color: #54c35f !important;
+}
